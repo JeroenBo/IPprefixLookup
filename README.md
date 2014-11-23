@@ -23,9 +23,9 @@ Or install it yourself as:
 
 ## Usage
 
-    $ require 'IPprefixLookup'
-    $ prefix = IPprefixLookup.lookup('8.8.8.8')
-    $p prefix
+     require 'IPprefixLookup'
+     prefix = IPprefixLookup.lookup('8.8.8.8')
+     p prefix
 
 ## Contributing
 
