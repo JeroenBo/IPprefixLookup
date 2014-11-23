@@ -2,7 +2,7 @@
 
 State: Alpha
 
-Lookup the prefix based on a ip address
+Lookup the prefix based on a IP address
 The database provided is based on the BGP table
 
 ## Installation
@@ -23,9 +23,9 @@ Or install it yourself as:
 
 ## Usage
 
-require 'IPprefixLookup'
-prefix = IPprefixLookup.lookup('8.8.8.8')
-p prefix
+    $ require 'IPprefixLookup'
+    $ prefix = IPprefixLookup.lookup('8.8.8.8')
+    $p prefix
 
 ## Contributing
 
